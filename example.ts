@@ -8,5 +8,3 @@ const test4 = something
 ?
 something :
 test;
-
-console.log(testing, test2, testingFix, test3, test4)
