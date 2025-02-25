@@ -1,0 +1,12 @@
+{
+	"name": "@sakgoyal/use-nullish",
+	"version": "1.0.0",
+	"license": "MIT",
+	"exports": "./plugin.ts",
+	"lint": {
+	  "plugins": ["./plugin.ts"]
+	},
+	"fmt": {
+		"lineWidth": 999
+	}
+  }
