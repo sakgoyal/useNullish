@@ -4,9 +4,16 @@
 	"license": "MIT",
 	"exports": "./plugin.ts",
 	"lint": {
-	  "plugins": ["./plugin.ts"]
+		"plugins": [
+			"./plugin.ts"
+		]
 	},
 	"fmt": {
 		"lineWidth": 999
+	},
+	"compilerOptions": {
+		"lib": [
+			"deno.unstable"
+		]
 	}
-  }
+}
